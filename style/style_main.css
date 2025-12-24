@@ -3,3 +3,17 @@ main {
     padding: 2rem;
     background-color: #F5F5F5;
 }
+
+
+.main_contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: clamp(1rem, 2vw + 1rem, 3rem);
+  min-height: 100vh;
+}
+
+.mainPresupuestos{
+  justify-content: center;
+    text-align: center;
+}

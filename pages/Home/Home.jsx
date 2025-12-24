@@ -1,5 +1,7 @@
 import React from "react";
-import Trabajos from "./trabajos";
+import Trabajos from "../Home/trabajos";
+
+
 function Home() {
     return (
 
@@ -17,6 +19,8 @@ function Home() {
 
 
                 <section>
+                    <h2>NUESTROS TRABAJOS</h2>
+                    <Trabajos />
                 </section>
 
 

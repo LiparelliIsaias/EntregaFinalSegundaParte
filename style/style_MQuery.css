@@ -1,0 +1,79 @@
+
+@media (max-width: 768px) {
+    nav {
+        gap: 0.8rem;
+    }
+
+    nav a {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    main {
+        padding: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 1rem;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+  main {
+    padding: 1rem;
+  }
+
+  .Presupuestos {
+    padding: 1rem;
+    border-radius: 8px;
+  }
+
+  .Presupuestos h2 {
+    font-size: 1.4rem;
+  }
+
+  .responsive-form input,
+  .responsive-form textarea {
+    font-size: 0.95rem;
+    padding: 0.7rem;
+  }
+
+  .submit-button,
+  .Presupuestos > div button {
+    font-size: 0.95rem;
+    padding: 0.7rem;
+  }
+
+  #emergency-phone p {
+    font-size: 1rem;
+  }
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .main_contacto {
+    padding: 1rem;
+  }
+
+  .section_mapa iframe {
+    height: 280px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section_mapa iframe {
+    height: 240px;
+  }
+}

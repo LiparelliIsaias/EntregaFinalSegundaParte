@@ -1,13 +1,14 @@
 import React from 'react'
 
-function Trabajos_Cards({TRABAJOS}) {
+function Trabajos_Cards({trabajos}) {
+  
   return (
      <div className='trabajosContainer' >
-      {products.map((TRABAJOS) => (
-        <div className='trabajosCard' key={TRABAJOS.id} >
-            <h3> {TRABAJOS.nombre} </h3>
-            <img src={TRABAJOS.image} /*alt="computadora"*/ />
-            <p> {TRABAJOS.categoria} </p>
+      {trabajos.map((trabajo) => (
+        <div className='trabajosCard' key={trabajos.id} >
+            <h3> {trabajo.nombre} </h3>
+            <img src={trabajo.image} /*alt="computadora"*/ />
+            <p> {trabajo.categoria} </p>
         </div>
       ) )}
     </div>

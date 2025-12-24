@@ -4,7 +4,6 @@ function header() {
     return (
         <header>
                 
-
         </header>
     )
 }

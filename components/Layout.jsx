@@ -1,10 +1,10 @@
 import React from "react";
 import { Outlet, NavLink } from "react-router-dom";
-import Headers from "../pages/Header";
-import Footer from "../pages/Footer"
-import PreguntasFrecuentes from "../pages/PreguntasFrecuentes";
-import Presupuestos from "../pages/Presupuestos";
-import Contacto from "../pages/Contacto";
+import Headers from "../pages/Header/Header";
+import Footer from "../pages/Footer/Footer"
+import PreguntasFrecuentes from "../pages/Preguntas Frecuentes/PreguntasFrecuentes";
+import Presupuestos from "../pages/Presupuestos/Presupuestos";
+import Contacto from "../pages/Contacto/Contacto";
 
 function Layout() {
 

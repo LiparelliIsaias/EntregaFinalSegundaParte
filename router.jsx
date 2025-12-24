@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "./components/Layout.jsx";
-import Home from "./pages/Home.jsx";
-import PreguntasFrecuentes from "./pages/PreguntasFrecuentes.jsx";
-import Contacto from "./pages/Contacto.jsx"
-import Presupuestos from "./pages/Presupuestos.jsx"
+import Home from "./pages/home/Home.jsx";
+import PreguntasFrecuentes from "./pages/Preguntas Frecuentes/PreguntasFrecuentes.jsx";
+import Contacto from "./pages/Contacto/Contacto.jsx"
+import Presupuestos from "./pages/Presupuestos/Presupuestos.jsx"
 
 
 
