@@ -33,7 +33,7 @@ export const router = createBrowserRouter([
                 element: <Presupuestos/>
             },
             {
-                //Se puede inventar una pag para este error.
+              
                 path: "*",
                 element: <div>
                     <h1>404</h1>

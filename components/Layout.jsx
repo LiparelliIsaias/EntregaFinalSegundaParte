@@ -12,8 +12,8 @@ function Layout() {
         <div>
             <header>
                 <nav>
-                    <NavLink to="/">Home </NavLink>
-                    <NavLink to="/PreguntasFrecuentes">PreguntasFrecuentes </NavLink>
+                    <NavLink to="/">Inicio </NavLink>
+                    <NavLink to="/PreguntasFrecuentes">Preguntas Frecuentes </NavLink>
                     <NavLink to="/Presupuestos">Presupuestos </NavLink>
                     <NavLink to="/Contacto">Contacto </NavLink>
                 </nav>

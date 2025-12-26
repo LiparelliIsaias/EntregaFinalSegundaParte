@@ -3,22 +3,21 @@
   flex-direction: column;
   gap: 2rem;
   padding: 2rem;
-  align-items: center; /* Centra horizontalmente los hijos */
-  justify-content: center; /* Centra verticalmente si hay espacio */
+  align-items: center;
+  justify-content: center; 
 }
 
-/* Tarjetas */
 .card {
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   padding: 1.5rem;
   width: 100%;
-  max-width: 700px; /* Limita el ancho para que quede centrado */
-  text-align: center; /* Centra el contenido dentro de la tarjeta */
+  max-width: 700px;
+  text-align: center; 
 }
 
-/* Bloques de contacto */
+
 .contact_block {
   margin-bottom: 1.5rem;
 }
@@ -26,7 +25,7 @@
 .contact_block h3 {
   display: flex;
   align-items: center;
-  justify-content: center; /* Centra ícono y texto */
+  justify-content: center; 
   gap: 0.5rem;
   color: #cf661f;
   margin-bottom: 0.5rem;
@@ -37,7 +36,7 @@
   font-size: 1rem;
   color: #333;
   text-decoration: none;
-  display: inline-flex; /* Ícono + texto en línea */
+  display: inline-flex; 
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
@@ -57,13 +56,13 @@
   margin-bottom: 0.5rem;
 }
 
-/* Íconos */
+
 .icon {
   font-size: 1.2rem;
   color: #cf661f;
 }
 
-/* Mapa */
+
 .section_mapa h2 {
   text-align: center;
   margin-bottom: 1rem;
@@ -74,9 +73,9 @@
 .section_mapa iframe {
   border-radius: 12px;
   width: 100%;
-  max-width: 700px; /* Centra y limita el ancho del mapa */
+  max-width: 700px; 
   height: 350px;
   display: block;
-  margin: 0 auto; /* Centra el iframe */
+  margin: 0 auto; 
 }
 

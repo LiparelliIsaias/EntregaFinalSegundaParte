@@ -1,5 +1,6 @@
 import React from "react";
 import Trabajos from "../Home/trabajos";
+import FloatingWhatsAppButton from "../../components/BottomWP";
 
 
 function Home() {
@@ -25,6 +26,7 @@ function Home() {
 
 
             </main>
+                  <FloatingWhatsAppButton />
         </>
     )
 }

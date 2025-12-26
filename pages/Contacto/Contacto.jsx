@@ -8,9 +8,11 @@ import {
   FaWhatsapp,
   FaMapMarkerAlt,
 } from "react-icons/fa";
+import FloatingWhatsAppButton from "../../components/BottomWP";
 
 const Contacto = () => {
   return (
+    <>
     <main className="main_contacto">
       <section className="section_contacto card">
         <div className="contact_block">
@@ -94,6 +96,10 @@ const Contacto = () => {
         ></iframe>
       </section>
     </main>
+
+      <FloatingWhatsAppButton />
+
+      </>
   );
 };
 

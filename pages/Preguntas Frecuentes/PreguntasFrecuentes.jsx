@@ -1,9 +1,12 @@
 import React from "react";
+import FloatingWhatsAppButton from "../../components/BottomWP";
+import "../../style/style_PreguntasFrecuentes.css";
 
 function PreguntasFrecuentes() {
     return (
+        <>
         
-        <main className="faq-main py-5 tamañoHeader">
+        <main className="tituloSeccion faq-main py-5 tamañoHeader">
 
             <div className="container">
 
@@ -332,6 +335,8 @@ function PreguntasFrecuentes() {
                 </div>
             </div>
         </main>
+              <FloatingWhatsAppButton />
+    </>
     );
 }
 

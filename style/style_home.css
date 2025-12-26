@@ -1,4 +1,3 @@
-/* Estilo general del main */
 .main_index {
   max-width: 1200px;
   margin: 2rem auto;
@@ -8,7 +7,6 @@
   box-shadow: 0 8px 24px rgba(0,0,0,0.15);
 }
 
-/* Sección Sobre Nosotros */
 .SobreNosotrosIndex {
   background: #ffffff;
   padding: 2rem;
@@ -37,7 +35,7 @@
   max-width: 900px;
 }
 
-/* Sección de trabajos */
+
 .main_index section {
   background: #fff;
   padding: 2rem;

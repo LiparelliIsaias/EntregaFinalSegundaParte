@@ -5,9 +5,9 @@ function Trabajos_Cards({trabajos}) {
   return (
      <div className='trabajosContainer' >
       {trabajos.map((trabajo) => (
-        <div className='trabajosCard' key={trabajos.id} >
+        <div className='trabajosCard' key={trabajo.id} >
             <h3> {trabajo.nombre} </h3>
-            <img src={trabajo.image} /*alt="computadora"*/ />
+            <img src={trabajo.image}/>
             <p> {trabajo.categoria} </p>
         </div>
       ) )}
